@@ -11,8 +11,8 @@ body {
 nav {
   border-bottom: 1px solid rgb(207, 207, 207);
   padding: 1em;
+  font-family: "Prompt", sans-serif;
 }
-
 
 .main-section {
   display: flex;
@@ -29,9 +29,9 @@ nav {
     height: 80%;
     // padding: 1em;
     padding: 0.1em 0.5em;
-    font-size: 2em;
+    font-size: 1em;
     flex: 1 0 auto;
-    
+
     textarea {
       resize: none;
       width: 100%;
@@ -51,9 +51,20 @@ nav {
   word-wrap: break-word;
   max-height: 100%;
   background: rgb(184, 184, 184);
+  font-family: "Prompt", sans-serif;
+
+}
+
+.instructions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Prompt", sans-serif;
 }
 
 footer {
   text-align: end;
   margin-right: 5%;
+  font-family: "Prompt", sans-serif;
+  font-size: 0.5em;
 }

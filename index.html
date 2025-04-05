@@ -5,16 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Translator_io</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <script type="module" src="./index.js" defer></script>
   </head>
   <body>
     <nav>
-      <h1>Translator_io</h1>
+      <h1>TRANSLATEME.IO</h1>
     </nav>
 
     <section class="main-section">
-      <textarea name="" id="" class="main-section__box"></textarea>
+      <textarea
+        name=""
+        id=""
+        class="main-section__box"
+        placeholder="To start: type in English or Morse code 
+        
+— to type Morse, separate letters with spaces and use a slash / for new words."
+      ></textarea>
       <div class="main-section__box" id="result"><p></p></div>
+    </section>
+    <section class="instructions">
+      <p>e.g .... . .-.. .-.. --- / .-- --- .-. .-.. -.. → HELLO WORLD</p>
     </section>
     <footer>Powered with HTML, CSS & JS by RK</footer>
   </body>
