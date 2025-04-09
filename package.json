@@ -1,0 +1,26 @@
+{
+  "name": "morse-code-translator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronaldkwan93/morse-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ronaldkwan93/morse-code/issues"
+  },
+  "homepage": "https://github.com/ronaldkwan93/morse-code#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
